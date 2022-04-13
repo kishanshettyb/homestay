@@ -1,0 +1,117 @@
+// Testimonial Basic //
+
+.testimonial-basic {
+  background-color: $white;
+  padding: 0px 20px;
+  border-radius: $border-radius-2;
+  box-shadow: $shadow-colored;
+  z-index: 111;
+  height: 100%;
+
+  .testimonial-bg {
+    height: 400px;
+    background-image: url('../../assets/images/backgrounds/testimonial-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .fa-quote-left {
+    position: absolute;
+    color: $gray-200;
+    font-size: 7rem;
+    z-index: -1;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    opacity: 0.5;
+  }
+
+  .owl-item {
+    padding-left: 20px;
+  }
+
+  ul {
+    margin: 0 0 5px 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+
+      i {
+        color: $orange;
+        font-size: 12px;
+      }
+    }
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  p.name {
+    margin: 0;
+  }
+
+  .owl-item img.profile {
+    display: block;
+    width: 200px !important;
+    height: 200px !important;
+    margin: auto;
+    object-fit: cover;
+    border-radius: $border-radius-50;
+
+    // `md` applies to small devices (landscape phones, less than 768px)
+    @media (max-width: 767.98px) {
+      width: 170px !important;
+      height: 170px !important;
+    }
+
+    // `sm` applies to x-small devices (portrait phones, less than 576px)
+    @media (max-width: 575.98px) {
+      width: 150px !important;
+      height: 150px !important;
+    }
+  }
+
+  .owl-nav {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    margin: 0;
+
+    .owl-prev {
+      &:hover .first {
+        display: none;
+      }
+
+      &:hover .second {
+        display: inline-block !important;
+      }
+    }
+
+    .owl-next {
+      &:hover .first {
+        display: none;
+      }
+
+      &:hover .second {
+        display: inline-block !important;
+      }
+    }
+
+    button {
+      &:hover {
+        background: none !important;
+      }
+
+      .arrows {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+// End Testimonial Basic //

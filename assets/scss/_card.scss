@@ -1,0 +1,84 @@
+// Contact Card
+.contact-card {
+  border-radius: $border-radius-2;
+  margin: 30px 0;
+  background-color: $white;
+  box-shadow: $shadow-lg;
+  padding: 5px;
+
+  .form {
+    margin: 0 55px 0 40px;
+  }
+
+  .contact-details-div {
+    background-color: $primary;
+    color: $white;
+    border-radius: $border-radius-2;
+    padding: 60px 40px;
+
+    background-image: url('../../assets/images/backgrounds/contact-bg.png');
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: bottom right;
+
+    p {
+      color: $gray-500;
+    }
+
+    .contact-details-ul {
+      margin: 0 0 30px 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        padding-bottom: 20px;
+        display: inline;
+        padding-right: 10px;
+
+        .pl-45 {
+          padding-left: 45px;
+        }
+
+        i {
+          color: $info;
+          font-size: 1.3rem;
+        }
+
+        a {
+          color: $gray-300;
+          text-decoration: none;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .social-icons-ul {
+      margin: 90px 0 0 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        display: inline-block;
+        padding-right: 0;
+
+        a {
+          text-decoration: none;
+          color: $white;
+          font-size: 1rem;
+          display: flex;
+          width: 40px;
+          height: 40px;
+          border-radius: $border-radius-50;
+          background-color: transparent;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+
+          &:hover {
+            background-color: $info;
+          }
+        }
+      }
+    }
+  }
+}

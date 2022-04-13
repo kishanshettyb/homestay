@@ -1,0 +1,16 @@
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  box-shadow: none;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:focus {
+    background-color: darken($primary, 3%);
+    ;
+    border-color: $primary;
+    outline: none;
+    box-shadow: none;
+  }
+}

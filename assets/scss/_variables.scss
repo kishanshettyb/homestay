@@ -1,0 +1,52 @@
+// Shadows
+$shadow:0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+$shadow-sm: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+$shadow-lg: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+
+$shadow-colored:0 1rem 3rem #3f37c961 !important;
+
+// Border Radius
+$border-radius-1:5px;
+$border-radius-2:10px;
+$border-radius-3:25px;
+$border-radius-4:35px;
+$border-radius-50:50%;
+
+// Color system
+$white:#fff;
+$black:#000;
+$gray-100: #f6f9fc !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #8898aa !default;
+$gray-700: #525f7f !default;
+$gray-800: #32325d !default;
+$gray-900: #212529 !default;
+
+$flickr-pink: #f72585ff;
+$byzantine: #b5179eff;
+$purple: #7209b7ff;
+$purple-2: #560badff;
+$trypan-blue: #480ca8ff;
+$trypan-blue-2: #3a0ca3ff;
+$persian-blue: #3f37c9ff;
+$ultramarine-blue: #4361eeff;
+$dodger-blue: #4895efff;
+$vivid-sky-blue: #4cc9f0ff;
+$orange:#faa307 !default;
+
+$primary:$persian-blue;
+$secondary: $purple !default;
+$info: $vivid-sky-blue !default;
+$info-dark: #3b9cbb !default;
+$success: #2dce89 !default;
+$success-dark:#1b9b64 !default;
+$warning: #fb6340 !default;
+$warning-dark: #e35d3e !default;
+$danger: #f5365c !default;
+$danger-dark:#cd3150 !default;
+$light: $gray-500 !default;
+$dark: #22223b !default;
+$default: $gray-900 !default;
