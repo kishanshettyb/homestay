@@ -1,0 +1,19 @@
+.navbar-brand {
+  font-weight: 700;
+  font-size: 28px;
+
+  .logo {
+    height: 45px;
+  }
+}
+
+.nav-item {
+  .nav-link {
+    font-weight: 700;
+  }
+}
+
+.menu-bar {
+  cursor: pointer;
+  color: $primary;
+}

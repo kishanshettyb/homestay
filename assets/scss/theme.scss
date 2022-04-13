@@ -1,0 +1,18 @@
+@import 'colors';
+@import 'variables';
+@import 'utilities';
+@import 'navbar';
+@import 'buttons';
+@import 'banner';
+@import 'destinations';
+@import 'testimonials';
+@import 'card';
+@import 'gallery';
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+section {
+  padding: 40px 0px;
+}

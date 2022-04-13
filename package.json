@@ -1,0 +1,28 @@
+{
+  "name": "homestay",
+  "version": "1.0.0",
+  "description": "Homestay theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishanshettyb/homestay.git"
+  },
+  "keywords": [
+    "homestay"
+  ],
+  "author": "Kishan B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kishanshettyb/homestay/issues"
+  },
+  "homepage": "https://github.com/kishanshettyb/homestay#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.0"
+  }
+}
